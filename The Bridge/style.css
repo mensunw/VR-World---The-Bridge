@@ -1,0 +1,48 @@
+html,body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+#body{
+  background-color:rgb(255, 255, 179);
+}
+.container{
+  display:flex;
+  padding: 10px;
+}
+#banner{
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(255, 204, 255);
+  color:white;
+}
+#banner h1{
+  text-shadow: 1px 1px black;
+}
+.button{
+  background-color: rgb(255, 204, 255);
+  color:white;
+  padding: 10px;
+  margin:10px;
+  text-decoration: none;
+  border-radius:4px;
+}
+#body{
+  margin-top:20px;
+}
+#snapshot{
+  flex:1;
+  text-align:center;
+  padding: 50px 50px 35px 50px;
+}
+#snapshot img{
+  text-align:center;
+  width:90%;
+  height:90%;
+  border-radius:2px;
+  position:0px -500px;
+}
+#description{
+  flex:1;
+  text-align:left;
+  padding: 100px 10px 10px 10px;
+  color: blue;
+}
